@@ -10,8 +10,8 @@ public class GemHolder : MonoBehaviour
     //activeerd time in reverse :)
     IEnumerator Activate(){
         Transform Fixed = GameObject.FindObjectOfType<SpriteMask>().transform;
-        float max = 1000;
-        float goal = 102;
+        float max = 3000;
+        float goal = 155;
         //zorgt ervoor dat de masker vergroot naar goal over de tijd van max
         //1 = 1 frame dus een max van 1000 is 1000 frames
         //bij 60 fps is dat dus 16.666 secondes tot het bij de goal komt
